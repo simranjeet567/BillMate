@@ -27,6 +27,6 @@ public class Invoice {
         {
             System.out.println(service.getServiceType()+" "+service.getServiceCost());
         }
-
+        System.out.println("total cost: "+totalCost);
     }
 }
