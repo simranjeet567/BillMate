@@ -22,6 +22,11 @@ public class Invoice {
         System.out.println("----------Invoice-----------");
         System.out.println("Customer Name: "+customerObj.getName()+" "+"Contact Number: "+customerObj.getContactNumber());
         System.out.println("Car Model: "+customerObj.getCarObj().getCarModel()+" "+"Car Number: "+customerObj.getCarObj().getCarNumber());
+        System.out.println("Services: ");
+        for(Service service: serviceList)
+        {
+            System.out.println(service.getServiceType()+" "+service.getServiceCost());
+        }
 
     }
 }
