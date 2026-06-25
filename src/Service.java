@@ -14,4 +14,5 @@ public class Service {
     public double getServiceCost() {
         return serviceCost;
     }
+
 }
